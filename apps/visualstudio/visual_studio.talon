@@ -18,6 +18,19 @@ panel design: key(shift-f7)
 panel marks: key(ctrl-k ctrl-w)
 panel breakpoints: key(ctrl-alt-b)
 
+# resharper
+move member down: key(ctrl-shift-alt-down)
+move member up: key(ctrl-shift-alt-up)
+member down: key(alt-down)
+member up: key(alt-up)
+go everything: key(ctrl-t)
+go recent files: key(ctrl-,)
+go recent edits: key(ctrl-shift-,)
+locate in solution Explorer: key(shift-alt-l)
+rename that: key(ctrl-r r)
+test sessions: key(ctrl-alt-t)
+test explorer: key(ctrl-alt-u)
+
 # Settings
 show settings: key(alt-t o)
 #show shortcuts:
