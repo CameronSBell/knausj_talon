@@ -29,8 +29,18 @@ go recent files: key(ctrl-,)
 go recent edits: key(ctrl-shift-,)
 locate in solution Explorer: key(shift-alt-l)
 rename that: key(ctrl-r r)
+
+# Resharper tests
+test run: key(ctrl-u r)
+test repeat: key(ctrl-u u)
+test debug: key(ctrl-u d)
+test run solution: key(ctrl-u l)
+test run session: key(ctrl-u y)
 test sessions: key(ctrl-alt-t)
 test explorer: key(ctrl-alt-u)
+
+# visual studio build
+build all: key(ctrl-shift-b)
 
 # Settings
 show settings: key(alt-t o)
