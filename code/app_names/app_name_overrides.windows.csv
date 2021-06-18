@@ -6,3 +6,9 @@ app, slack.exe
 lockapp, slack.exe
 pycharm, pycharm64.exe
 webstorm, webstorm64.exe
+studio, microsoft visual studio 2019
+code, visual studio code
+sequel, SSMS 18
+file, Windows Explorer
+word, Microsoft Word
+teams, Microsoft Teams
