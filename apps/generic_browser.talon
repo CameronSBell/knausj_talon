@@ -48,8 +48,8 @@ dev tools: browser.toggle_dev_tools()
 # navigating to new pages
 # (open | go) (url | history): key(o)
 # (open | go) (url | history) new: key(O)
-# (open | go) bookmark: key(b)
-# (open | go) bookmark new: key(B)
+(open | go) bookmark: key(b)
+(open | go) bookmark new: key(B)
 # using find
 # find mode: key(/)
 # next match: key(n)
