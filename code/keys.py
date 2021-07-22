@@ -135,7 +135,7 @@ punctuation_words = {
     "period": ".",
     "full stop": ".",
     "semicolon": ";",
-    "colon": ":",
+    "full colon": ":",# changed to full colon to prevent collisions with go down command
     "forward slash": "/",
     "question mark": "?",
     "exclamation mark": "!",
