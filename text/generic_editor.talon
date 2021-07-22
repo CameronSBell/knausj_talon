@@ -104,10 +104,12 @@ indent [more]:
 clear line:
     edit.delete_line()
 
-clear left:
+# changed from clear left to stop collision with go left
+cleft:
     key(backspace)
 
-clear right:
+# changed from clear right to stop collision with go right
+clight:
     key(delete)
 
 clear up:
