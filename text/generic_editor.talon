@@ -71,9 +71,13 @@ indent [more]: edit.indent_more()
 # deleting
 clear line: edit.delete_line()
 
-clear left: key(backspace)
+# changed from clear left to stop collision with go left
+cleft:
+    key(backspace)
 
-clear right: key(delete)
+# changed from clear right to stop collision with go right
+clight:
+    key(delete)
 
 clear up:
     edit.extend_line_up()
