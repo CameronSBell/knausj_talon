@@ -2,6 +2,7 @@ app: Ssms.exe
 app: Microsoft SQL Server Management Studio
 -
 tag(): user.command_mode
+tag(): user.line_commands
 (file|query) new: key(ctrl-n)
 open file: key(ctrl-o)
 query execute: key(f5)
