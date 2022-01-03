@@ -24,11 +24,8 @@ move member down: key(ctrl-shift-alt-down)
 move member up: key(ctrl-shift-alt-up)
 member down: key(alt-down)
 member up: key(alt-up)
-search everywhere: key(ctrl-t)
-go recent files: key(ctrl-,)
-go recent edits: key(ctrl-shift-,)
-locate in solution Explorer: key(shift-alt-l)
 rename that: key(ctrl-r r)
+comment line: key(ctrl-alt-/)
 
 # Resharper tests
 test run: key(ctrl-u r)
@@ -57,8 +54,8 @@ file hunt [<user.text>]:
     insert(text or "")
 file create: key(ctrl-n)
 #file open folder:
-file rename: key(ctrl-[ s f2)
-file reveal: key(ctrl-[ s)
+#file rename: key(ctrl-[ s f2)
+file reveal: key(shift-alt-l)
 
 # Language Features
 hint show: key(ctrl-shift-space)
@@ -83,12 +80,16 @@ refactor that: key(ctrl-r ctrl-r)
 go back: key(ctrl--)
 go forward: key(ctrl-shift--)
 go implementation: key(f12)
-go recent [<user.text>]:
-    key(ctrl-1 ctrl-r)
+recent [<user.text>]:
+    key(ctrl-,)
     sleep(100ms)
     insert(text or "")
-go type [<user.text>]:
-    key(ctrl-1 ctrl-t)
+go edits [<user.text>]:
+    key(ctrl-shift-,)
+    sleep(100ms)
+    insert(text or "")
+search everywhere [<user.text>]:
+    key(ctrl-t)
     sleep(100ms)
     insert(text or "")
 go member [<user.text>]:
@@ -109,8 +110,8 @@ fold toggle all: key(ctrl-m ctrl-l)
 fold definitions: key(ctrl-m ctrl-o)
 
 #Debugging
-break point: key(f9)
-step over: key(f10)
+toggle break point: key(f9)
+debug step over: key(f10)
 debug step into: key(f11)
 debug step out [of]: key(f10)
 debug start: key(f5)
