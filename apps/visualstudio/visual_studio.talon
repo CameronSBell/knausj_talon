@@ -79,7 +79,7 @@ refactor that: key(ctrl-r ctrl-r)
 (go declaration | follow): key(ctrl-f12)
 go back: key(ctrl--)
 go forward: key(ctrl-shift--)
-go implementation: key(f12)
+go imp: key(f12)
 recent [<user.text>]:
     key(ctrl-,)
     sleep(100ms)
