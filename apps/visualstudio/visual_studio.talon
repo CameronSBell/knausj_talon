@@ -1,5 +1,5 @@
 os: windows
-app: Microsoft Visual Studio 2019
+app: Microsoft Visual Studio 2022
 app: devenv.exe
 -
 tag(): user.tabs
@@ -26,6 +26,7 @@ member down: key(alt-down)
 member up: key(alt-up)
 rename that: key(ctrl-r r)
 comment line: key(ctrl-alt-/)
+to do explorer: key(ctrl-alt-d)
 
 # Resharper tests
 test run: key(ctrl-u r)
