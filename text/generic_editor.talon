@@ -44,8 +44,8 @@ go way up:
 go bottom:
     edit.file_end()
     
-go top:
-    edit.file_start()
+#go top:
+#    edit.file_start()
 
 go page down:
     edit.page_down()

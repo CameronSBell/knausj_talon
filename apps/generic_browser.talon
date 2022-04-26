@@ -47,7 +47,7 @@ dev tools: browser.toggle_dev_tools()
 # main frame: key(g F)
 # navigating to new pages
 # (open | go) (url | history): key(o)
-# (open | go) (url | history) new: key(O)
+(open | go) (url | history) new: key(O)
 (open | go) bookmark: key(b)
 (open | go) bookmark new: key(B)
 # using find
