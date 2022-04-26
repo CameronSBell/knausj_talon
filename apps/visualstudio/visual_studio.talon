@@ -97,6 +97,9 @@ go member [<user.text>]:
     sleep(100ms)
     insert(text or "")
 go usage: key(shift-f12)
+# Resharper code navigation
+use next: key(ctrl-alt-pagedown)
+use last: key(ctrl-alt-pageup)
 
 # Bookmarks.
 go marks: key(ctrl-k ctrl-w)
