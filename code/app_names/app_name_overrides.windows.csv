@@ -6,7 +6,7 @@ app, slack.exe
 lockapp, slack.exe
 pycharm, pycharm64.exe
 webstorm, webstorm64.exe
-id, microsoft visual studio 2022
+stud, microsoft visual studio 2022
 code, visual studio code
 sequel, SSMS 18
 file, Windows Explorer
@@ -14,4 +14,4 @@ teams, Microsoft Teams
 tree, Sourcetree
 guard, RSIGuard
 list, Microsoft To Do
-mail, Outlook
+mail, Microsoft Outlook
