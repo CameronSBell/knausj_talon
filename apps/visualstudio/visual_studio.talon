@@ -25,6 +25,7 @@ member down: key(alt-down)
 member up: key(alt-up)
 rename that: key(ctrl-r r)
 comment line: key(ctrl-alt-/)
+comment to do: " // TODO: "
 to do explorer: key(ctrl-alt-d)
 
 # Resharper tests
@@ -70,7 +71,8 @@ imports fix: key(ctrl-r ctrl-g)
 # problem fix:
 refactor field: key(ctrl-r ctrl-e)
 refactor interface: key(ctrl-r ctrl-i)
-refactor method: key(ctrl-r ctrl-m)
+extract method: key(ctrl-r ctrl-m)
+change signature: key(ctrl-r s)
 refactor reorder parameters: key(ctrl-r ctrl-o)
 refactor remove parameters: key(ctrl-r ctrl-v)
 refactor that: key(ctrl-r ctrl-r)
@@ -79,7 +81,7 @@ refactor that: key(ctrl-r ctrl-r)
 (go declaration | follow): key(ctrl-f12)
 go back: key(ctrl--)
 go forward: key(ctrl-shift--)
-go imp: key(f12)
+drill: key(f12)
 recent [<user.text>]:
     key(ctrl-,)
     sleep(100ms)
@@ -120,3 +122,8 @@ debug step out [of]: key(f10)
 debug start: key(f5)
 debug stopper: key(shift-f5)
 debug continue: key(f5)
+
+# Specflow
+step define: key(ctrl-b ctrl-d)
+step rename: key(ctrl-b ctrl-r)
+step usage: key(ctrl-b ctrl-f)
