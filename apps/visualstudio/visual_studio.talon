@@ -26,8 +26,12 @@ member down: key(alt-down)
 member up: key(alt-up)
 rename that: key(ctrl-r r)
 comment line: key(ctrl-alt-/)
-comment to do: " // TODO: "
 to do explorer: key(ctrl-alt-d)
+action: key(alt-enter)
+
+# custom strings
+comment to do: " // TODO: "
+local var: "var "
 
 # Resharper tests
 test run: key(ctrl-u r)
@@ -54,9 +58,11 @@ wrap switch: key(ctrl-e ctrl-w)
 file hunt [<user.text>]:
     key(ctrl-shift-t)
     insert(text or "")
-file create: key(ctrl-n)
+#file create: key(ctrl-n)
+file create: key(ctrl-shift-a)
 #file open folder:
 #file rename: key(ctrl-[ s f2)
+file rename: key(shift-alt-l ctrl-shift-e ctrl-shift-r)
 file reveal: key(shift-alt-l)
 
 # Language Features
@@ -70,6 +76,7 @@ imports fix: key(ctrl-r ctrl-g)
 # problem next:
 # problem last:
 # problem fix:
+# Resharper Re-factoring
 refactor field: key(ctrl-r ctrl-e)
 refactor interface: key(ctrl-r ctrl-i)
 extract method: key(ctrl-r ctrl-m)
