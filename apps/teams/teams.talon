@@ -1,4 +1,5 @@
 app: microsoft_teams
+app: Microsoft Teams
 os: windows
 os: linux
 -
