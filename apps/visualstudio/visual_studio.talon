@@ -43,6 +43,7 @@ test explorer: key(ctrl-alt-u)
 
 # visual studio build
 build all: key(ctrl-shift-b)
+database publish: key(alt-b alt-d)
 
 # Settings
 show settings: key(alt-t o)
