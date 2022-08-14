@@ -43,6 +43,7 @@ test explorer: key(ctrl-alt-u)
 
 # visual studio build
 build all: key(ctrl-shift-b)
+database publish: key(alt-b alt-d)
 
 # Settings
 show settings: key(alt-t o)
@@ -125,10 +126,11 @@ fold definitions: key(ctrl-m ctrl-o)
 toggle break point: key(f9)
 debug step over: key(f10)
 debug step into: key(f11)
-debug step out [of]: key(f10)
+debug step out [of]: key(shift-f11)
 debug start: key(f5)
 debug stopper: key(shift-f5)
 debug continue: key(f5)
+debug next [statement]: key(alt-keypad_multiply)
 
 # Specflow
 step define: key(ctrl-b ctrl-d)
