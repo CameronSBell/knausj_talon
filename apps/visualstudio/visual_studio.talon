@@ -29,7 +29,10 @@ to do explorer: key(ctrl-alt-d)
 action: key(alt-enter)
 
 # custom strings
-comment to do: " // TODO: "
+comment to do [<user.text>]:
+    insert(" // TODO: ")
+    sleep(100ms)
+    insert(text or "")
 local var: "var "
 
 # Resharper tests
