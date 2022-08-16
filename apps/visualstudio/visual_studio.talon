@@ -63,6 +63,7 @@ file hunt [<user.text>]:
     insert(text or "")
 #file create: key(ctrl-n)
 file create: key(ctrl-shift-a)
+file delete: key(shift-alt-l delete)
 #file open folder:
 #file rename: key(ctrl-[ s f2)
 file rename: key(shift-alt-l ctrl-shift-e ctrl-shift-r)
@@ -109,7 +110,7 @@ go member [<user.text>]:
     key(alt-\)
     sleep(100ms)
     insert(text or "")
-go usage: key(shift-f12)
+go reference: key(shift-f12)
 # Resharper code navigation
 use next: key(ctrl-alt-pagedown)
 use last: key(ctrl-alt-pageup)
