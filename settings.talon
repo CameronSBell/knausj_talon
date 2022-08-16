@@ -44,7 +44,7 @@ settings():
     user.command_history_size = 50
 
     # minimum silence time (in seconds) before speech is cut off, default 0.3
-    speech.timeout = 0.15
+    speech.timeout = 0.2
 
     # Uncomment the below to enable context-sensitive dictation. This determines
     # how to format (capitalize, space) dictation-mode speech by selecting &
