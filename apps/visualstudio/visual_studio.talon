@@ -68,6 +68,7 @@ file delete: key(shift-alt-l delete)
 #file rename: key(ctrl-[ s f2)
 file rename: key(shift-alt-l ctrl-shift-e ctrl-shift-r)
 file reveal: key(shift-alt-l)
+folder create: key(ctrl-shift-alt-f)
 
 # Language Features
 hint show: key(ctrl-shift-space)
