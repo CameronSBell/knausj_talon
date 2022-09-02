@@ -29,7 +29,7 @@ to do explorer: key(ctrl-alt-d)
 action: key(alt-enter)
 
 # custom strings
-comment to do [<user.text>]:
+to do comment [<user.text>]:
     insert(" // TODO: ")
     sleep(100ms)
     insert(text or "")
