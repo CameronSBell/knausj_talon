@@ -15,3 +15,11 @@ mode: all
     user.engine_sleep()
 ^talon sleep [<phrase>]$: speech.disable()
 ^talon wake$: speech.enable()
+
+^wake teams$:
+    speech.disable()
+    key(ctrl-shift-alt-n)
+
+^sleep teams$:
+    speech.enable()
+    key(ctrl-shift-alt-m)
