@@ -199,7 +199,7 @@ symbol_key_words = {
     "percent": "%",
     "caret": "^",
     "amper": "&",
-    "pipe": "|",
+    "stick": "|",
     "dubquote": '"',
     "double quote": '"',
     # Currencies
