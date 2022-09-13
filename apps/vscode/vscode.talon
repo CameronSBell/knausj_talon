@@ -255,3 +255,10 @@ cell run: user.vscode("jupyter.runcurrentcell")
 
 install local: user.vscode("workbench.extensions.action.installVSIX")
 preview markdown: user.vscode("markdown.showPreview")
+
+# My Custom Commands
+sort ascending: user.vscode("editor.action.sortLinesAscending")
+search everywhere [<user.text>]:
+    user.vscode("workbench.action.findInFiles")
+    sleep(100ms)
+    insert(text or "")
