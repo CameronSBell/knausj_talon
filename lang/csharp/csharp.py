@@ -23,7 +23,7 @@ class UserActions:
         actions.auto_insert("->")
 
     def code_operator_lambda():
-        actions.auto_insert("=>")
+        actions.auto_insert(" => ")
 
     def code_operator_subscript():
         actions.user.insert_between("[", "]")
