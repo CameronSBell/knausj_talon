@@ -1,6 +1,7 @@
 Word(s),Spoken Form (If Different)
 ack mapper,ac mapper
 ack message,arc message
+API
 APIR
 appender
 appsettings,up settings
@@ -74,13 +75,16 @@ HackEDU,hackage
 HackEDU,hacker jeer
 helm chart
 helm charts
+IEnumerable
 inequality predicate
 inner join
-int
 ISIN,ice in
 JSON,Jason
 key vault,key volt
 Kubernetes
+mandatory,manda tree
+mandatory,monde tree
+mandatory,under tree
 message adapter
 message adapter management,measured it up to management
 message adapter management,message is up to management
@@ -140,10 +144,11 @@ POCO,poco
 Power BI,power bee
 Power BI,power by i
 Power BI,power by I
+PR
 process controller management,process control and management
 pull request,poll request
-qa,cu a
-qa,qua
+QA,cu a
+QA,qua
 queue name,key name
 queue,cu
 readonly,read only
@@ -156,13 +161,14 @@ SFTP,as step
 Sourcetree,souls tree
 Specflow,backflow
 swift connector
-Teamcity,team city
+TeamCity,team city
 test data,testator
 Tobii eye tracker,tap eye tracker
 Tobii eye tracker,Tobii tracker
 Tobii,toby
 UAT environment,you at environment
-UAT,you at
+UAT test,you at test
+UAT testing,you at testing
 var
 VARCHAR,all char
 VARCHAR,var char
