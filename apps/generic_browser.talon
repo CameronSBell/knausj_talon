@@ -55,8 +55,14 @@ show cache: browser.show_clear_cache()
 # navigating to new pages
 # (open | go) (url | history): key(o)
 (open | go) (url | history) new: key(O)
-(open | go) bookmark: key(b)
-(open | go) bookmark new: key(B)
+(open | go) bookmark [<user.text>]:
+    key(b)
+    sleep(100ms)
+    insert(text or "")
+(open | go) mark [<user.text>]: 
+    key(B)
+    sleep(100ms)
+    insert(text or "")
 # using find
 # find mode: key(/)
 # next match: key(n)
