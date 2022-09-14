@@ -51,13 +51,13 @@ select down: edit.extend_line_down()
 
 select word: edit.select_word()
 
-select word left: edit.extend_word_left()
+sleft: edit.extend_word_left()
 
-select word right: edit.extend_word_right()
+slight: edit.extend_word_right()
 
-select way left: edit.extend_line_start()
+sloane: edit.extend_line_start()
 
-select way right: edit.extend_line_end()
+slend: edit.extend_line_end()
 
 select way up: edit.extend_file_start()
 
