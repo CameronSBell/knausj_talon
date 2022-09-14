@@ -4,10 +4,10 @@ find it:
 next one:
     edit.find_next()
 
-go word left:
+gleft:
     edit.word_left()
 
-go word right:
+gright:
     edit.word_right()
 
 go left:
@@ -104,8 +104,7 @@ indent [more]:
 clear line:
     edit.delete_line()
 
-# changed from clear left to stop collision with go left
-cleft:
+clear left:
     key(backspace)
 
 # changed from clear right to stop collision with go right
