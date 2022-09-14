@@ -46,10 +46,13 @@ test explorer: key(ctrl-alt-u)
 
 # visual studio build
 build all: key(ctrl-shift-b)
+# ClassViewContextMenus.ClassViewProject.SSDTPublish
 database publish: key(alt-b alt-d)
 
 # Settings
 show settings: key(alt-t o)
+# Tools.ImportandExportSettings
+export settings: key(ctrl-e ctrl-x)
 #show shortcuts:
 #show snippets:
 
@@ -61,13 +64,14 @@ wrap switch: key(ctrl-e ctrl-w)
 file hunt [<user.text>]:
     key(ctrl-shift-t)
     insert(text or "")
-#file create: key(ctrl-n)
+
+# Project.AddNewItem
 file create: key(ctrl-shift-a)
 file delete: key(shift-alt-l delete)
-#file open folder:
-#file rename: key(ctrl-[ s f2)
+# File.Rename
 file rename: key(shift-alt-l ctrl-shift-e ctrl-shift-r)
 file reveal: key(shift-alt-l)
+# Project.NewFolder
 folder create: key(ctrl-shift-alt-f)
 
 # Language Features
@@ -128,7 +132,7 @@ fold toggle all: key(ctrl-m ctrl-l)
 fold definitions: key(ctrl-m ctrl-o)
 
 #Debugging
-toggle break point: key(f9)
+break point: key(f9)
 debug step over: key(f10)
 debug step into: key(f11)
 debug step out [of]: key(shift-f11)
@@ -137,7 +141,10 @@ debug stopper: key(shift-f5)
 debug continue: key(f5)
 debug next [statement]: key(alt-keypad_multiply)
 
-# Specflow
+# Specflow custom commands
+# EditorContextMenus.CodeWindow.SpecFlow.DefineSteps
 step define: key(ctrl-b ctrl-d)
+# EditorContextMenus.CodeWindow.SpecFlow.RenameStep
 step rename: key(ctrl-b ctrl-r)
+# EditorContextMenus.CodeWindow.SpecFlow.FindStepDefinitionUsages
 step usage: key(ctrl-b ctrl-f)
