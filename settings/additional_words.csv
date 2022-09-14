@@ -17,6 +17,9 @@ balance sender,balance sunder
 BIC
 bool
 bootstrapper,beach trapper
+C# ,c sharp
+C# ,se sharp
+C# ,se shop
 Calastone,color stone
 Cameron Bell,Cameron bell
 CDSC
@@ -152,15 +155,11 @@ QA,qua
 queue name,key name
 queue,cu
 readonly,read only
-readonly,we only
 Reji,reggie
 Resharper,resharper
 Resharper,we sharper
 SEDOL,se doll
 SFTP,as step
-C# ,c sharp
-C# ,se sharp
-C# ,se shop
 Sourcetree,souls tree
 Specflow,backflow
 swift connector
@@ -169,9 +168,8 @@ test data,testator
 Tobii eye tracker,tap eye tracker
 Tobii eye tracker,Tobii tracker
 Tobii,toby
-UAT environment,you at environment
-UAT test,you at test
-UAT testing,you at testing
+unit test,you nit test
+unit test,you unit test
 var
 VARCHAR,all char
 VARCHAR,var char
