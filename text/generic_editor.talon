@@ -75,16 +75,16 @@ select down:
 select word:
     edit.select_word()
 
-select word left:
+sleft:
     edit.extend_word_left()
 
-select word right:
+slight:
     edit.extend_word_right()
 
-select way left:
+sloane:
     edit.extend_line_start()
 
-select way right:
+slend:
     edit.extend_line_end()
 
 select way up:
