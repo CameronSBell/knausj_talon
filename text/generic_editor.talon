@@ -2,9 +2,9 @@ find it: edit.find()
 
 next one: edit.find_next()
 
-go word left: edit.word_left()
+gleft: edit.word_left()
 
-go word right: edit.word_right()
+gright: edit.word_right()
 
 go left: edit.left()
 
@@ -71,8 +71,7 @@ indent [more]: edit.indent_more()
 # deleting
 clear line: edit.delete_line()
 
-# changed from clear left to stop collision with go left
-cleft:
+clear left:
     key(backspace)
 
 # changed from clear right to stop collision with go right
