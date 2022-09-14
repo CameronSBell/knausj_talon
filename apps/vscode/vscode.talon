@@ -261,7 +261,11 @@ preview markdown: user.vscode("markdown.showPreview")
 
 # My Custom Commands
 sort ascending: user.vscode("editor.action.sortLinesAscending")
+search next: user.vscode("search.action.focusNextSearchResult")
+search last: user.vscode("search.action.focusPreviousSearchResult")
 search everywhere [<user.text>]:
     user.vscode("workbench.action.findInFiles")
     sleep(100ms)
     insert(text or "")
+tab right: user.vscode("workbench.action.nextEditorInGroup")
+tab left: user.vscode("workbench.action.previousEditorInGroup")

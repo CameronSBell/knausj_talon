@@ -61,10 +61,10 @@ class AppActions:
         actions.user.vscode("workbench.action.closeActiveEditor")
 
     def tab_next():
-        actions.user.vscode("workbench.action.nextEditorInGroup")
+        actions.key("ctrl-tab")
 
     def tab_previous():
-        actions.user.vscode("workbench.action.previousEditorInGroup")
+        actions.key("ctrl-shift-tab")
 
     def tab_reopen():
         actions.user.vscode("workbench.action.reopenClosedEditor")
