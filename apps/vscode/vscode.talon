@@ -114,10 +114,10 @@ refactor this: user.vscode("editor.action.refactor")
 (go declaration | follow): user.vscode("editor.action.revealDefinition")
 go back: user.vscode("workbench.action.navigateBack")
 go forward: user.vscode("workbench.action.navigateForward")
-go implementation: user.vscode("editor.action.goToImplementation")
+drill: user.vscode("editor.action.goToImplementation")
 go type: user.vscode("editor.action.goToTypeDefinition")
-go usage: user.vscode("references-view.find")
-go recent [<user.text>]:
+go reference: user.vscode("references-view.find")
+recent [<user.text>]:
     user.vscode("workbench.action.openRecent")
     sleep(50ms)
     insert(text or "")
