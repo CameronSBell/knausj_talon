@@ -20,6 +20,11 @@ mode: all
     speech.disable()
     key(ctrl-shift-alt-n)
 
+^wake teams stay$:
+    speech.disable()
+    key(ctrl-shift-alt-n)
+    user.switcher_focus("Microsoft Teams")
+
 ^sleep teams$:
     speech.enable()
     key(ctrl-shift-alt-m)
