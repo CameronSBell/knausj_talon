@@ -266,3 +266,5 @@ search everywhere [<user.text>]:
     insert(text or "")
 tab right: user.vscode("workbench.action.nextEditorInGroup")
 tab left: user.vscode("workbench.action.previousEditorInGroup")
+folder create: user.vscode("explorer.newFolder")
+folder rename: key(ctrl-shift-e ctrl-shift-r)
