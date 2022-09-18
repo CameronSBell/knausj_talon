@@ -313,6 +313,16 @@ class Actions:
         """Hides list of running applications"""
         gui_running.hide()
 
+    def talon_focus_visual_studio_window_with_title(title: str):
+        """Focuses the Microsoft visual studio window with the given title"""
+        app_name = actions.user.get_running_app("stud").name
+        apps = ui.apps(name=app_name, background=False)
+        for app in apps:
+            for window in app.windows():
+                if title.lower() in window.title.lower():
+                    actions.user.switcher_focus_window(window)
+                    break
+            
 
 @imgui.open()
 def gui_running(gui: imgui.GUI):
