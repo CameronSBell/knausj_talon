@@ -6,7 +6,7 @@ app, slack.exe
 lockapp, slack.exe
 pycharm, pycharm64.exe
 webstorm, webstorm64.exe
-stud, devenv.exe
+id, devenv.exe
 sequel, SSMS 18
 file, Windows Explorer
 teams, Microsoft Teams
