@@ -92,13 +92,16 @@ imports fix: key(ctrl-r ctrl-g)
 # problem last:
 # problem fix:
 # Resharper Re-factoring
-refactor field: key(ctrl-r ctrl-e)
-refactor interface: key(ctrl-r ctrl-i)
+encapsulate field: key(ctrl-r ctrl-e)
+refactor in line: key(ctrl-r ctrl-i)
 extract method: key(ctrl-r ctrl-m)
 change signature: key(ctrl-r s)
 refactor reorder parameters: key(ctrl-r ctrl-o)
 refactor remove parameters: key(ctrl-r ctrl-v)
 refactor that: key(ctrl-r ctrl-r)
+introduce variable: key(ctrl-r v)
+introduce field: key(ctrl-r f)
+introduce parameter: key(ctrl-r p)
 
 #code navigation
 (go declaration | follow): key(ctrl-f12)
