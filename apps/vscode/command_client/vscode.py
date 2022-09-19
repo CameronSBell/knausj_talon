@@ -39,6 +39,10 @@ class Actions:
         """Execute command via vscode command server, if available, or fallback
         to command palette."""
         command_server_or_client_fallback(command_id, False)
+    
+    def vstudio(command_id: str):
+        """Execute command via visual studio command server."""
+        actions.user.vscode_with_plugin("VSCommand", arg1=command_id)
 
     def vscode_and_wait(command_id: str):
         """Execute command via vscode command server, if available, and wait
