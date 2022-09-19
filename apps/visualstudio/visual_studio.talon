@@ -158,3 +158,6 @@ step define: key(ctrl-b ctrl-d)
 step rename: key(ctrl-b ctrl-r)
 # EditorContextMenus.CodeWindow.SpecFlow.FindStepDefinitionUsages
 step usage: key(ctrl-b ctrl-f)
+
+# Multiple tabs switcher commands
+tab next <user.ordinals>: user.tab_next_multiple(ordinals)

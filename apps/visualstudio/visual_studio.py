@@ -270,3 +270,12 @@ class UserActions:
 
     def multi_cursor_select_more_occurrences():
         actions.key("shift-alt->")
+
+@mod.action_class
+class Actions:        
+    def tab_next_multiple(number: int):
+        """Navigates the tab switcher by pressing and holding ctrl and pressing tab the desired number of times."""
+        actions.key("ctrl:down")
+        for _ in range(number):
+            actions.key("tab")
+        actions.key("ctrl:up")
