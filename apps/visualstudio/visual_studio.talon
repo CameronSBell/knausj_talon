@@ -32,9 +32,15 @@ action: key(alt-enter)
 to do comment [<user.text>]:
     insert(" // TODO: ")
     sleep(100ms)
-    insert(text or "")
-local var: "var "
-
+    insert(text or "i")
+local var <phrase>:
+    insert("var ")
+    insert(user.formatted_text(phrase, "PRIVATE_CAMEL_CASE"))
+    insert(" = ")
+instant <phrase>:
+    insert("new ")
+    insert(user.formatted_text(phrase, "PUBLIC_CAMEL_CASE"))
+    insert("(")
 # Resharper tests
 test run: key(ctrl-u r)
 test repeat: key(ctrl-u u)
