@@ -59,6 +59,7 @@ database publish: key(alt-b alt-d)
 show settings: key(alt-t o)
 # Tools.ImportandExportSettings
 export settings: key(ctrl-e ctrl-x)
+#test rename: user.vstudio("Tools.ImportandExportSettings") this line does not work, visual studio throws an error 
 #show shortcuts:
 #show snippets:
 
@@ -70,15 +71,15 @@ wrap switch: key(ctrl-e ctrl-w)
 file hunt [<user.text>]:
     key(ctrl-shift-t)
     insert(text or "")
-
-# Project.AddNewItem
-file create: key(ctrl-shift-a)
-file delete: key(shift-alt-l delete)
-# File.Rename
-file rename: key(shift-alt-l ctrl-shift-e ctrl-shift-r)
-file reveal: key(shift-alt-l)
-# Project.NewFolder
-folder create: key(ctrl-shift-alt-f)
+file create: user.vstudio("Project.AddNewItem")
+file delete:
+    user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+    key(delete)
+file rename:
+    user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+    user.vstudio("File.Rename")
+file reveal: user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+folder create: user.vstudio("Project.NewFolder")
 
 # Language Features
 hint show: key(ctrl-shift-space)
