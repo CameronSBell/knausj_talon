@@ -156,7 +156,6 @@ step rename: user.vstudio("EditorContextMenus.CodeWindow.SpecFlow.RenameStep")
 step usage: user.vstudio("EditorContextMenus.CodeWindow.SpecFlow.FindStepDefinitionUsages")
 
 # Miscellaneous custom commands
-#: user.vstudio("")
 nuget project: 
     user.vstudio("Project.ManageNuGetPackages")
     sleep(100ms)
@@ -189,7 +188,7 @@ manage secrets:
 project nave: 
     user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
     user.vstudio("SolutionExplorer.CollapseAll")
-csproj nave: 
+project file nave:
     user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
     user.vstudio("SolutionExplorer.CollapseAll")
     key(enter)
