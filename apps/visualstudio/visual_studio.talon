@@ -13,10 +13,10 @@ panel solution: key(ctrl-alt-l)
 panel properties: key(f4)
 panel output: key(ctrl-alt-o)
 panel class: key(ctrl-shift-c)
-panel errors: key(ctrl-\ ctrl-e)
+panel error list: key(ctrl-\ ctrl-e)
 panel design: key(shift-f7)
 panel marks: key(ctrl-k ctrl-w)
-panel breakpoints: key(ctrl-alt-b)
+panel break: key(ctrl-alt-b)
 
 # resharper
 move member down: key(ctrl-shift-alt-down)
