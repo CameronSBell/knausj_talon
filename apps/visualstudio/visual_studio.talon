@@ -31,7 +31,6 @@ action: key(alt-enter)
 # custom strings
 to do comment [<user.text>]:
     insert(" // TODO: ")
-    sleep(100ms)
     insert(text or "i")
 local var <phrase>:
     insert("var ")
@@ -52,8 +51,7 @@ test explorer: key(ctrl-alt-u)
 
 # visual studio build
 build all: key(ctrl-shift-b)
-# ClassViewContextMenus.ClassViewProject.SSDTPublish
-database publish: key(alt-b alt-d)
+database publish: user.vstudio("ClassViewContextMenus.ClassViewProject.SSDTPublish")
 
 # Settings
 show settings: key(alt-t o)
@@ -153,12 +151,49 @@ debug continue: key(f5)
 debug next [statement]: key(alt-keypad_multiply)
 
 # Specflow custom commands
-# EditorContextMenus.CodeWindow.SpecFlow.DefineSteps
-step define: key(ctrl-b ctrl-d)
-# EditorContextMenus.CodeWindow.SpecFlow.RenameStep
-step rename: key(ctrl-b ctrl-r)
-# EditorContextMenus.CodeWindow.SpecFlow.FindStepDefinitionUsages
-step usage: key(ctrl-b ctrl-f)
+step define: user.vstudio("EditorContextMenus.CodeWindow.SpecFlow.DefineSteps")
+step rename: user.vstudio("EditorContextMenus.CodeWindow.SpecFlow.RenameStep")
+step usage: user.vstudio("EditorContextMenus.CodeWindow.SpecFlow.FindStepDefinitionUsages")
+
+# Miscellaneous custom commands
+#: user.vstudio("")
+nuget project: 
+    user.vstudio("Project.ManageNuGetPackages")
+    sleep(100ms)
+    user.vstudio("Project.ManageNuGetPackages")
+    key(delete)
+    sleep(200ms)
+    key(esc)
+nuget solution: 
+    user.vstudio("Tools.ManageNuGetPackagesForSolution")
+    sleep(100ms)
+    user.vstudio("Tools.ManageNuGetPackagesForSolution")
+    key(delete)
+    sleep(200ms)
+    key(esc)
+break switch: user.vstudio("Debug.EnableBreakpoint")
+break enable: user.vstudio("Debug.EnableAllBreakpoints")
+break delete: user.vstudio("Debug.DeleteAllBreakpoints")
+break disable: user.vstudio("Debug.DisableAllBreakpoints")
+start application: user.vstudio("Debug.StartWithoutDebugging")
+start set: user.vstudio("Project.SetasStartupProject")
+start set solution:
+    user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+    user.vstudio("SolutionExplorer.CollapseAll")
+    key("home")
+    user.vstudio("Project.SetasStartupProject")
+manage secrets:
+    user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+    user.vstudio("SolutionExplorer.CollapseAll")
+    user.vstudio("ProjectandSolutionContextMenus.Project.ManageUserSecrets")
+project nave: 
+    user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+    user.vstudio("SolutionExplorer.CollapseAll")
+#project add: user.vstudio("File.NewProject") doesn't work due to invalid project type error
+solution nave:
+    user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+    user.vstudio("SolutionExplorer.CollapseAll")
+    key("home")
 
 # Multiple tabs switcher commands
 tab next <user.ordinals>: user.tab_next_multiple(ordinals)
