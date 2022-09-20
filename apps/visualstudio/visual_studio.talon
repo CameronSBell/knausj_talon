@@ -189,6 +189,10 @@ manage secrets:
 project nave: 
     user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
     user.vstudio("SolutionExplorer.CollapseAll")
+csproj nave: 
+    user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
+    user.vstudio("SolutionExplorer.CollapseAll")
+    key(enter)
 #project add: user.vstudio("File.NewProject") doesn't work due to invalid project type error
 solution nave:
     user.vstudio("ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer")
