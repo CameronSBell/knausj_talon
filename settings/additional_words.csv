@@ -180,4 +180,5 @@ var
 VARCHAR,all char
 VARCHAR,var char
 Vimium,vim um
+vscode
 YouTrack,you track
