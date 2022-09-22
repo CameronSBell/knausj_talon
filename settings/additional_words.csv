@@ -1,4 +1,5 @@
 Word(s),Spoken Form (If Different)
+Cursorless
 ack mapper,ac mapper
 ack message,arc message
 API
@@ -144,7 +145,6 @@ outbound queue,outbound cu
 outbound queue,outbound key
 OWASP,i wasp
 OWASP,I wasp
-paren,pare
 Pirashanth,prashant
 Pirashanth's
 PluralSight,plural sights
@@ -157,6 +157,7 @@ process controller management,process control and management
 pull request,poll request
 QA,cu a
 QA,qua
+QA,keyway
 queue name,key name
 queue,cu
 readonly,read only
