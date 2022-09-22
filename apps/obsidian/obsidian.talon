@@ -40,3 +40,6 @@ template insert [<user.text>]:
 search everywhere [<user.text>]:
     key(ctrl-shift-f)
     insert(user.text or "")
+link insert: 
+    key(ctrl-k)
+    edit.paste()
