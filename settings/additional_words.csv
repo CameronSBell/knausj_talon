@@ -1,5 +1,4 @@
 Word(s),Spoken Form (If Different)
-Cursorless
 ack mapper,ac mapper
 ack message,arc message
 API
@@ -42,6 +41,7 @@ ctnqa6,can Qasim
 ctnqa6,stand ka six
 ctnqa6,tan ka six
 ctnqa8,can qa at
+Cursorless
 Datadog,date to dog
 Datadog,day to dog
 descoped
@@ -106,6 +106,9 @@ MQ,am cu
 MQ,am key
 MQ,i am key
 MQ,I am key
+MT940,em tee nine forty
+MT941,em tee nine forty one
+MT942,em tee nine four two
 mutesync,meat sink
 mutesync,ut sink
 mutesync,yet sink
@@ -156,8 +159,8 @@ PR
 process controller management,process control and management
 pull request,poll request
 QA,cu a
-QA,qua
 QA,keyway
+QA,qua
 queue name,key name
 queue,cu
 readonly,read only
