@@ -272,3 +272,8 @@ tab left: user.vscode("workbench.action.previousEditorInGroup")
 folder create: user.vscode("explorer.newFolder")
 folder rename: key(ctrl-shift-e ctrl-shift-r)
 project pick: user.vscode("o.pickProjectAndStart")
+task run build: user.vscode("workbench.action.runTask.build")
+task run [<user.text>]:
+    user.vscode("workbench.action.tasks.runTask") 
+    sleep(100ms)
+    insert(text or "")
