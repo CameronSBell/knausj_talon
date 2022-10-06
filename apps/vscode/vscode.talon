@@ -261,6 +261,12 @@ preview markdown: user.vscode("markdown.showPreview")
 
 # My Custom Commands
 sort ascending: user.vscode("editor.action.sortLinesAscending")
+sort CSV:
+    edit.file_start()
+    edit.down()
+    edit.extend_file_end()
+    user.vscode("editor.action.sortLinesAscending")
+    edit.file_start()
 search next: user.vscode("search.action.focusNextSearchResult")
 search last: user.vscode("search.action.focusPreviousSearchResult")
 search everywhere [<user.text>]:
