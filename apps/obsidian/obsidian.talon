@@ -43,3 +43,4 @@ search everywhere [<user.text>]:
 link insert: 
     key(ctrl-k)
     edit.paste()
+vault open code: key(ctrl-alt-shift-v)
