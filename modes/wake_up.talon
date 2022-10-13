@@ -13,8 +13,8 @@ mode: all
     user.mouse_sleep()
     speech.disable()
     user.engine_sleep()
-^talon sleep [<phrase>]$: speech.disable()
-^talon wake$: speech.enable()
+^go to sleep [<phrase>]$: speech.disable()
+^wake up$: speech.enable()
 
 ^wake teams$:
     speech.disable()
