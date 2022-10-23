@@ -16,5 +16,5 @@ class Actions:
             actions.speech.disable()
             unmute_meeting()
         else:
-            actions.speech.enable()
             mute_meeting()
+            actions.speech.enable()
