@@ -61,7 +61,7 @@ show cache: browser.show_clear_cache()
     insert(text or "")
 (open | go) mark [<user.text>]: 
     key(B)
-    sleep(100ms)
+    sleep(300ms)
     insert(text or "")
 # using find
 # find mode: key(/)
