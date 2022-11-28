@@ -19,6 +19,7 @@ mode: all
 ^wake teams$:
     speech.disable()
     key(ctrl-shift-alt-n)
+#    user.focus_webcam()
 
 ^wake teams stay$:
     speech.disable()
@@ -28,5 +29,6 @@ mode: all
 ^sleep teams$:
     speech.enable()
     key(ctrl-shift-alt-m)
+    #    user.blur_webcam()
 
 key(ctrl-shift-alt-t): user.toggle_talon_and_meeting_mute()
