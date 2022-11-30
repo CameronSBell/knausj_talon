@@ -142,7 +142,8 @@ class Actions:
             and eye_zoom_mouse.zoom_mouse.state != eye_zoom_mouse.STATE_IDLE
         ):
             eye_zoom_mouse.zoom_mouse.cancel()
-
+            show_cursor_helper(True)
+    
     def mouse_trigger_zoom_mouse():
         """Trigger zoom mouse if enabled"""
         if eye_zoom_mouse.zoom_mouse.enabled:
@@ -241,6 +242,19 @@ class Actions:
         """move the mouse cursor to the center of the currently active window"""
         rect = ui.active_window().rect
         ctrl.mouse_move(rect.left + (rect.width / 2), rect.top + (rect.height / 2))
+
+    def mouse_click_and_hide_cursor_zoom_mouse(button: int):
+        """Zoom and hide cursor and mouse click"""
+        if not eye_zoom_mouse.zoom_mouse.enabled:
+            return
+        if eye_zoom_mouse.zoom_mouse.state is eye_zoom_mouse.STATE_IDLE:
+            actions.tracking.zoom()
+            show_cursor_helper(False)
+        else:
+            eye_zoom_mouse.zoom_mouse.cancel()
+            actions.mouse_click(button)
+            show_cursor_helper(True)
+
 
 
 def show_cursor_helper(show):

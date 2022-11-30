@@ -111,3 +111,8 @@ copy mouse position: user.copy_mouse_position()
 curse no:
     # Command added 2021-12-13, can remove after 2022-06-01
     app.notify("Please activate the user.mouse_cursor_commands_enable tag to enable this command")
+
+key(f1): user.mouse_click_and_hide_cursor_zoom_mouse(0)
+key(f2): user.mouse_click_and_hide_cursor_zoom_mouse(1)
+key(f3): user.mouse_click_and_hide_cursor_zoom_mouse(2)
+key(f4): user.mouse_cancel_zoom_mouse()
