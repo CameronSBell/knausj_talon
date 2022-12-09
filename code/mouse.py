@@ -163,6 +163,23 @@ class Actions:
         for button in buttons_held_down:
             ctrl.mouse_click(button=button, up=True)
 
+    def toggle_mouse_drag(button: int):
+        """Releases any held mouse buttons"""
+        if list(ctrl.mouse_buttons_down()):
+            if eye_zoom_mouse.zoom_mouse.state is eye_zoom_mouse.STATE_IDLE:
+                self.mouse_click_and_hide_cursor_zoom_mouse(button, 0)
+            else:
+                self.mouse_click_and_hide_cursor_zoom_mouse(button, 0)
+                buttons_held_down = list(ctrl.mouse_buttons_down())
+                for button in buttons_held_down:
+                    ctrl.mouse_click(button=button, up=True)
+        else:
+            if eye_zoom_mouse.zoom_mouse.state is eye_zoom_mouse.STATE_IDLE:
+                self.mouse_click_and_hide_cursor_zoom_mouse(button, 0)
+            else:
+                self.mouse_click_and_hide_cursor_zoom_mouse(button, 0)
+                ctrl.mouse_click(button=button, down=True)
+
     def mouse_sleep():
         """Disables control mouse, zoom mouse, and re-enables cursor"""
         eye_zoom_mouse.toggle_zoom_mouse(False)
@@ -243,7 +260,7 @@ class Actions:
         rect = ui.active_window().rect
         ctrl.mouse_move(rect.left + (rect.width / 2), rect.top + (rect.height / 2))
 
-    def mouse_click_and_hide_cursor_zoom_mouse(button: int):
+    def mouse_click_and_hide_cursor_zoom_mouse(button: int, numberOfClicks: int = 1):
         """Zoom and hide cursor and mouse click"""
         if not eye_zoom_mouse.zoom_mouse.enabled:
             return
@@ -252,7 +269,8 @@ class Actions:
             show_cursor_helper(False)
         else:
             eye_zoom_mouse.zoom_mouse.cancel()
-            actions.mouse_click(button)
+            for _ in range(numberOfClicks):
+                actions.mouse_click(button)
             show_cursor_helper(True)
 
 
