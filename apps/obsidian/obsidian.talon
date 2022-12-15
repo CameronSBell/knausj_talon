@@ -35,7 +35,7 @@ show commands [<user.text>]:
     key(ctrl-p)
     insert(user.text or "")
 template insert [<user.text>]:
-    key(ctrl-alt-shift-t)
+    key(ctrl-alt-t)
     insert(user.text or "")
 search everywhere [<user.text>]:
     key(ctrl-shift-f)
