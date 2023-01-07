@@ -1,4 +1,3 @@
-Word(s),Spoken Form (If Different)
 ack mapper,ac mapper
 ack message,arc message
 APIR,API r
@@ -19,6 +18,7 @@ azure service bus,as your service bus
 balance information API,ballance information API
 balance information,ballance information
 balance sender,balance sunder
+betaflight, beta flight
 BIC
 Blazor app,blazer rap
 Blazor app,plaza up
@@ -216,4 +216,5 @@ VARCHAR,all char
 VARCHAR,var char
 Vimium,vim um
 vscode
+Word(s),Spoken Form (If Different)
 YouTrack,you track
