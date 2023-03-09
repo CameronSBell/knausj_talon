@@ -1,4 +1,5 @@
 Word(s),Spoken Form (If Different)
+Abbvie,ab fee
 ack mapper,ac mapper
 ack message,arc message
 APIR,API r
@@ -10,14 +11,14 @@ ASP.NET Core app,asp dotnet call up
 ASP.NET Core,asp dotnet call
 ASP.NET Core,asp dotnet core
 async,a sink
+auto mapper
 AutoHotkey scripts,alto hot key scrips
 AutoHotkey,alto hot key
 azure key vault,as your key vault
 azure key vault,as your key volt
 azure portal,as your portal
 azure service bus,as your service bus
-balance information API,ballance information API
-balance information,ballance information
+balance information API
 balance sender,balance sunder
 betaflight, beta flight
 BIC
@@ -57,11 +58,14 @@ ctnqa6,stand ka six
 ctnqa6,tan ka six
 ctnqa8,can qa at
 Cursorless
+database,data base
 Datadog,date to dog
 Datadog,day to dog
 DataGrid,day to grid
 descoped
 DevOps
+DTO,data transfer object
+DTOs,data transfer objects
 EMS,ems
 enable,Anabel
 end of day balance
@@ -73,6 +77,7 @@ end-to-end test,unto en test
 end-to-end tests,int antes
 end-to-end tests,into antes
 endpoint management
+endpoint,and point
 enqueued,an cue
 enqueued,and cue
 enqueued,and cued
@@ -82,9 +87,12 @@ enqueued,and keyed
 enum
 enums
 equality predicate
+event hub
+event hub sender
 excel,axel
 eye tracker mouse
 for each loop,for reach leap
+git bash,get bash
 git repo,get repo
 git repository,get repository
 GitHub repo,get to repo
@@ -114,6 +122,7 @@ Kubernetes
 mandatory,manda tree
 mandatory,monde tree
 mandatory,under tree
+Marco,marko
 message adapter
 message adapter management,measured it up to management
 message adapter management,message is up to management
@@ -147,6 +156,7 @@ non-clustered index,non classed index
 non-clustered index,non cluster index
 non-clustered index,non clustered index
 non-clustered index,on clustered index
+NSB
 NServiceBus,and service boss
 NServiceBus,and service bus
 NServiceBus,and service buss
@@ -178,6 +188,9 @@ outbound queue,outbound cu
 outbound queue,outbound key
 OWASP,i wasp
 OWASP,I wasp
+Patrili
+Patrili's
+payments event hub sender
 Pirashanth,prashant
 Pirashanth's
 PluralSight,plural sights
@@ -196,13 +209,16 @@ readonly,read only
 Reji,reggie
 Resharper,resharper
 Resharper,we sharper
+RSIGuard,Arsal god
 SEDOL,se doll
 SFTP,as step
 Sourcetree,souls tree
 Specflow,backflow
+sprint board
 sproc,sprock
 swift connector
 TeamCity,team city
+tech debt,tack that
 test data,testator
 Tobii eye tracker,tap eye tracker
 Tobii eye tracker,Tobii tracker
