@@ -34,13 +34,13 @@ bar explore: key(ctrl-alt-l)
 show commands [<user.text>]:
     key(ctrl-p)
     insert(user.text or "")
-template insert [<user.text>]:
+insert template [<user.text>]:
     key(ctrl-alt-t)
     insert(user.text or "")
 search everywhere [<user.text>]:
     key(ctrl-shift-f)
     insert(user.text or "")
-link insert: 
+insert link: 
     key(ctrl-k)
     edit.paste()
 vault open code: key(ctrl-alt-shift-v)
