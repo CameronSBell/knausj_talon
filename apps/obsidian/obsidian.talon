@@ -44,3 +44,4 @@ link insert:
     key(ctrl-k)
     edit.paste()
 vault open code: key(ctrl-alt-shift-v)
+insert stamp: key(ctrl-alt-shift-d)
