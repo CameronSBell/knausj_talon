@@ -45,3 +45,5 @@ insert link:
     edit.paste()
 vault open code: key(ctrl-alt-shift-v)
 insert stamp: key(ctrl-alt-shift-d)
+insert time: key(ctrl-alt-shift-s)
+insert date: key(ctrl-alt-shift-c)
