@@ -280,6 +280,7 @@ folder rename: key(ctrl-shift-e ctrl-shift-r)
 project pick: user.vscode("o.pickProjectAndStart")
 task run build: user.vscode("workbench.action.tasks.build")
 task restart: user.vscode("workbench.action.tasks.restartTask")
+task repeat: user.vscode("workbench.action.tasks.reRunTask")
 task run [<user.text>]:
     user.vscode("workbench.action.tasks.runTask") 
     sleep(100ms)
