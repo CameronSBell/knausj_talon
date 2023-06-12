@@ -5,3 +5,7 @@ __pycache__
 # Locally generated
 /settings
 .vscode/settings.json
+# Track originally locally generated files that I want to keep in source control
+!settings/additional_words.csv
+!settings/search_engines.csv
+!settings/words_to_replace.csv
